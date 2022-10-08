@@ -1,12 +1,3 @@
-# Course: CS3642
-# Student name: Sammy Hasan-Silva
-# Student ID: 000917482
-# Assignment #: 1
-# Due Date: Sept 16th 2022
-# Signature:Sammy Hasan-Silva
-# Score:
-
-
 # blueprint of the People
 class Person:
     def __init__(self, attractive):
