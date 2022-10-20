@@ -23,16 +23,6 @@ queue = [p1, p2, p3]
 
 
 # have our agent scan each person in the queue and take action based on conditions
-
-# agent1 = SimpleReflexAgent(queue.__getitem__(0))
-# queue.pop(0)
-# agent1 = SimpleReflexAgent(queue.__getitem__(0))
-# queue.pop(0)
-# agent1 = SimpleReflexAgent(queue.__getitem__(0))
-# queue.pop(0)
-
-# loop
-# todo:
 #  if they are attractive they can be placed into the club
 while bool(queue):
     SimpleReflexAgent(queue.__getitem__(0))
